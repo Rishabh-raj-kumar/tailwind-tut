@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!--.text-{size}
+     base -> 1rem = 16px, lg -> 1.125rem = 18px
+     xl -> 1.25rem = 20px, 2xl -> 1.5rem = 24px
+     3xl -> 1.875rem = 30px, 4xl -> 2.25rem = 36px
+     5xl -> 3rem = 48px, 6xl -> 4rem = 64px -->
+
+     <div class=" font-serif w-1/2 h-32 text-4xl bg-red-500">hello there</div>
+
+     <!--text aliignment.
+      left,right,center,justify-->
+      <div class="font-serif w-1/2 h-32 text-4xl bg-red-300 text-center">hello there</div>
+
+     <!--text -{color}-{shade} -->
+     <div class=" font-serif w-1/2 h-32 text-4xl bg-blue-300 text-blue-900 text-right italic">hello there</div>
+
+     <!--font-{weight}
+       thin  -> 200, black -> 900, bold ->700, extrabold -> 800, medium -> 500 -->
+     
+       <div class="font-serif w-1/2 h-32 text-4xl bg-blue-500 font-bold">hello there</div>
+
+    <!-- letter-spacing denoted by .tracking-{spacing} 
+    tight -> -0.025em, wide -> 0.025em, wider -> 0.05em, widest -> 0.1em-->
+
+    <div class=" font-serif w-1/2 h-32 text-4xl bg-red-500 tracking-wider">hello there</div>
+
+    <!-- line height -> .leading-{height}
+    tight -> 1.25, snug -> 1.37, normal -> 1.5, loose -> 2, relaxed -> 1.65-->
+
+    <div class=" font-serif w-1/2 h-32 text-2xl bg-orange-300 leading-loose underline">hello there</div>
+
+    <span class="uppercase leading-normal font-extrabold">hello there</span>
+</body>
+</html>

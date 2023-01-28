@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="bg-gray-300 m-8 p-8 border-8"></div>
+
+    <!-- border-{side}-{thickness} 
+     l,b,t,r-->
+
+    <div class="bg-gray-300 p-8 w-24 h-16 border-t-8 border-r-8 m-8"></div>
+    <div class="bg-blue-300 p-8 w-24 h-26 border-t-8 border-l-8 ml-8"></div>
+
+    <!-- border-{shape}
+     double,dashed,dotted-->
+
+    <div class="bg-green-300 p-8 w-24 h-26  border-green-900 border-8 border-l-8 border-double ml-8 mt-8"></div>
+
+    <!-- border-{color}-{shade} -->
+
+    <div class="bg-green-300 p-8 w-32 h-16 border-green-800 border-t-8 mt-8 ml-8"></div>
+
+    <!-- border-radius -> .rounded-{size} -> sm(2px),lg(8px),full(99999)-->
+
+    <div class="bg-orange-300 p-8 w-40 h-20 border-8 border-dashed border-green-400 rounded-lg m-16"></div>
+    
+    <!-- custom border-radius -> .rounded-{side}-{radius} -> 
+     t,r,b,l,tl,tr,bl,br-->
+
+    <div class="bg-green-400 p-16 h-30 w-48 border-8 border-green-900 border-doubled rounded-tr-full rounded-bl-full m-20"></div>
+    <div class="bg-green-400 p-16 h-30 w-48 border-8 border-green-900 border-doubled rounded-tl-full rounded-br-full m-20"></div>
+
+</body>
+</html>
